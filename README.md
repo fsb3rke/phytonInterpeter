@@ -1,2 +1,2 @@
 # Phyton Interpeter
-## For those who write python instead of phython
+## For those who write phyton instead of python

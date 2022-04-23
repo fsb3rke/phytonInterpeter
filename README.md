@@ -3,4 +3,7 @@
 
 
 ## Setup
-### You need install python interpeter and g++ compiler.
+### 1
+```
+You need install python interpeter and g++ compiler.
+```

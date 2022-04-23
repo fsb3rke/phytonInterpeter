@@ -1,2 +1,2 @@
 # Phyton Interpeter
-## if you write phython to python or if you prefer phyton to python
+## For those who write python instead of phython

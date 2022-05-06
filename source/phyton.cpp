@@ -1,22 +1,22 @@
 #include <iostream>
 #include <string.h>
+
+#define SPACE " "
+
 int main(int argc, char const *argv[])
 {
-    std::string fileName = "";
-    std::string args = "";
-    std::string space = " ";
-    for (int i = 0; i <= argc; i++)
+    std::string fileName, params;
+    for (int i = 1; i < argc; i++)
     {
-        if (argv[i] == argv[0]) {}
-        else if (argv[i] == argv[1]) {
+        if (argv[i] == argv[1]) {
             fileName = argv[1];
         }
         else {
-            args += space+argv[i];
+            params += SPACE+(std::string)argv[i];
         }
     }
-    std::string pythonStart = "python ";
-    std::string command = pythonStart+fileName+args;
+    std::string startPrefix = "python";
+    std::string command = startPrefix + SPACE + fileName + params;
     system(command.c_str());
     return 0;
 }
